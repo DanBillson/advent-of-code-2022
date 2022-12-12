@@ -9,4 +9,6 @@ defmodule AOC do
   defdelegate four_p2, to: AOC.Four, as: :part2
   defdelegate five_p1, to: AOC.Five, as: :part1
   defdelegate five_p2, to: AOC.Five, as: :part2
+  defdelegate six_p1, to: AOC.Six, as: :part1
+  defdelegate six_p2, to: AOC.Six, as: :part2
 end
