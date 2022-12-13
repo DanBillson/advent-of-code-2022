@@ -11,4 +11,6 @@ defmodule AOC do
   defdelegate five_p2, to: AOC.Five, as: :part2
   defdelegate six_p1, to: AOC.Six, as: :part1
   defdelegate six_p2, to: AOC.Six, as: :part2
+  defdelegate seven_p1, to: AOC.Seven, as: :part1
+  defdelegate seven_p2, to: AOC.Seven, as: :part2
 end
